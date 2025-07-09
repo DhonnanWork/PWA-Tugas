@@ -19,17 +19,16 @@
         <h1>Welcome to Tugas!</h1>
     </header>
     <main>
-        <p>This is your instant Progressive Web App.</p>
-        <p>You can add this to your home screen on mobile, and it will work offline!</p>
+        <p>Progressive Web App.</p>
+        <p>Will work online or offline</p>
         <button id="testButton">Click Me!</button>
-        <p id="message"></p>
+        <p id="message">aaaaaaa</p>
     </main>
     <footer>
         <p>© 2025 Tugas. Built with Python.</p>
     </footer>
     <script src="app.js"></script>
     <script>
-        // Register the Service Worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/service-worker.js')
